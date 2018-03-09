@@ -1,4 +1,4 @@
-{% set version = '1.4' %}
+{% set version = "1.5" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/formatR_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/formatR/formatR_{{ version }}.tar.gz
-  sha256: 6ec47a7b1f18efb5fd7559b81427363b66415d81cded9d5e7e2907e900b67ebb
+  sha256: 874c197ae3720ec11b44984a055655b99a698e1912104eb9034c11fdf6104da7
 
 build:
   number: 0
