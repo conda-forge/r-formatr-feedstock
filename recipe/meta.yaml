@@ -15,8 +15,9 @@ source:
   sha256: 874c197ae3720ec11b44984a055655b99a698e1912104eb9034c11fdf6104da7
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
+  number: 1001
 
   rpaths:
     - lib/R/lib/
@@ -24,11 +25,9 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
-
+    - {{posix}}zip
   host:
     - r-base
-
   run:
     - r-base
 
@@ -45,8 +44,7 @@ about:
     conditions, so that R code will be more human-readable and tidy. There is also a
     Shiny app as a user interface in this package (see tidy_app()).
   license_family: GPL
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
