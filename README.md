@@ -3,7 +3,7 @@ About r-formatr
 
 Home: https://github.com/yihui/formatR
 
-Package license: GPL
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-formatr-feedstock/blob/master/LICENSE.txt)
 
