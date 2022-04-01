@@ -1,4 +1,4 @@
-{% set version = "1.11" %}
+{% set version = "1.12" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/formatR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/formatR/formatR_{{ version }}.tar.gz
-  sha256: bd81662d09cf363652761e63ba5969c71be4dd5ae6fc9098f440d6729254a30c
+  sha256: 8b52efbf43cbef25d837bb99a793a590c0958b753052c032b52304724e808c8b
 
 build:
   merge_build_host: true  # [win]
