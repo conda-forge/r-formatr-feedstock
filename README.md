@@ -1,11 +1,11 @@
-About r-formatr
-===============
+About r-formatr-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-formatr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/yihui/formatR
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-formatr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a function tidy_source() to format R source code. Spaces and indent will be added to the code automatically, and comments will be preserved under certain conditions, so that R code will be more human-readable and tidy. There is also a Shiny app as a user interface in this package (see tidy_app()).
 
